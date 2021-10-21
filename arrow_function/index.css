@@ -1,0 +1,41 @@
+.actividad{
+    background-color: aquamarine;
+}
+body{
+    flex-direction: column;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+div{
+    margin-top: 30px;
+}
+#botonalumno{
+   
+    position: relative;
+    left: 58px;
+    top: 13px;
+}
+#botonempleado{
+    position: relative;
+    left: 29px;
+    top: 13px;
+}
+#botonemail{
+    position: relative;
+    left: 34px;
+    top: 13px;
+}
+#botonperi{
+    position: relative;
+    left: 24px;
+    top: 13px;
+}
+#botonnotas{
+    position: relative;
+   
+    top: 15px;
+}
