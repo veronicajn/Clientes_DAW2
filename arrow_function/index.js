@@ -85,7 +85,7 @@ function infomap(){
            
           }
           console.log(result)
-       
+      
     }
 
     let menorhabt = () => {
@@ -102,27 +102,30 @@ function infomap(){
                 result = key +"  "+ acum
                 
             }else if(value < acum){
-                acum = value;
+                acum = value
                 
                 result2 = key +"  "+ acum
             }
            
           }
-          console.log(result2)
-        
+         
+       console.log(result2)
        
     }
+  function mostrar(){
+    let cont = menorhabt()
+   
+  }
   
-    
 
     //reutilizar contenidomap
     function contenidomap(){
         let map = new Map();
 
-        map.set("Madrid", 2000),
-        map.set("Barcelona",100000),
+        map.set("Madrid", 200),
+        map.set("Barcelona",1000),
         map.set("Cádiz", 90000),
-        map.set("Málaga",  8000)
+        map.set("Málaga",  80000)
 
         return map
     }
