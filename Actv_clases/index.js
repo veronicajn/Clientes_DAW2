@@ -143,6 +143,7 @@ class Aeropuerto {
         this.numeroVuelosDiarios = numeroVuelosDiarios;
         this.vuelos = new Array();
     }
+    //Vista inicial de vuelos, en este caso lo puse modo random
     cargarVuelos() {
         for (let i = 0; i < this.numeroVuelosDiarios; i++) {
 
@@ -192,6 +193,7 @@ class Aeropuerto {
         }
 
     }
+    //Comparar si las horas de salida o entrada son mayores o menores
     comprobarFechas(codigo, salida, llegada) {
         let resultado = false
         for (let i = 0; i < this.vuelos.length; i++) {
